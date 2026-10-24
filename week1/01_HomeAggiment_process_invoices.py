@@ -2,6 +2,7 @@ import csv
 from collections import defaultdict
 from pathlib import Path
 
+
 BASE_DIR = Path(__file__).parent
 INPUT_FILE = BASE_DIR / "data" / "homework_invoices.csv"
 OUTPUT_FILE = BASE_DIR / "data" / "high_value_invoices.csv"
